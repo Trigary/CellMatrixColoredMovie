@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context=".send.SendContentUserFragment"
+		tools:ignore="RtlHardcoded">
+	
+	<TextView style="@style/Title"
+			android:text="@string/send_content_user_title" />
+	
+	<View style="@style/Filler" />
+	
+	<TextView android:id="@+id/send_content_user_file_text"
+			style="@style/Content_User_Label"
+			android:labelFor="@id/send_content_user_file_select"
+			android:text="@string/send_content_user_file_none" />
+	
+	<Button android:id="@+id/send_content_user_file_select"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:drawableLeft="@mipmap/file"
+			android:textSize="20sp"
+			android:textColor="@color/textColor"
+			android:text="@string/send_content_user_file_select" />
+	
+	<View style="@style/Filler" />
+	
+	<View style="@style/Divider" />
+	
+	<View style="@style/Filler" />
+	
+	<TextView style="@style/Content_User_Label"
+			android:labelFor="@id/send_content_user_text"
+			android:text="@string/send_content_user_text" />
+	
+	<EditText android:id="@+id/send_content_user_text"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="5"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:gravity="top"
+			android:textSize="18sp"
+			android:textColor="@color/textColor"
+			android:background="#E5F1E6"
+			android:inputType="textMultiLine" />
+	
+	<View style="@style/Filler" />
+	
+	<LinearLayout style="@style/Navigation_Container">
+		
+		<Button android:id="@+id/send_content_user_back"
+				style="@style/Navigation_Button"
+				android:text="@string/back" />
+		
+		<Space style="@style/Navigation_Space" />
+		
+		<Button android:id="@+id/send_content_user_forward"
+				style="@style/Navigation_Button"
+				android:text="@string/forward" />
+	
+	</LinearLayout>
+
+</LinearLayout>

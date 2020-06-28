@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">CMCM-App</string>
+	<string name="app_full_name">Cellamátrix Színesfilm</string>
+	
+	<string name="back">Vissza</string>
+	<string name="forward">Tovább</string>
+	
+	<string name="menu_title">Cellamátrix\nSzínesfilm</string>
+	<string name="menu_send">Küldés</string>
+	<string name="menu_receive">Beolvasás</string>
+	
+	<string name="send_content_large">Adat hossza túl nagy</string>
+	
+	<string name="send_content_ticket_title">Tartalom</string>
+	<string name="send_content_ticket_duration">Érvényesség hossza (mp)</string>
+	<string name="send_content_ticket_name">Teljes név</string>
+	<string name="send_content_ticket_birth_date">Születési idő</string>
+	<string name="send_content_ticket_birth_place">Születési hely</string>
+	<string name="send_content_ticket_address">Lakcím</string>
+	<string name="send_content_ticket_phone">Telefonszám</string>
+	<string name="send_content_ticket_email">E-mail</string>
+	<string name="send_content_ticket_signature">Aláírás csatolása</string>
+	
+	<string name="send_content_user_title">Tartalom</string>
+	<string name="send_content_user_file_none">Nincs átküldendő fájl kiválasztva</string>
+	<string name="send_content_user_file_selected">Kiválasztott fájl: %s</string>
+	<string name="send_content_user_file_select">Fájl kiválasztása</string>
+	<string name="send_content_user_file_clear">Kiválasztás törlése</string>
+	<string name="send_content_user_text">Átküldendő szöveg</string>
+	
+	<string name="send_configure_title">Beállítások</string>
+	<string name="send_configure_resolution">Felbontás: %1$d x %1$d</string>
+	<string name="send_configure_frequency">Frekvencia: %d Hz</string>
+	<string name="send_configure_count">Képkockák száma: %d</string>
+	<string name="send_configure_count_impossible">Képkockák száma: túl sok</string>
+	<string name="send_configure_time_normal">Átküldési idő: %.1f mp</string>
+	<string name="send_configure_time_instant">Átküldési idő: -</string>
+	
+	<string name="send_transmitting_progress">%.1f másodperc maradt</string>
+	<string name="send_transmitting_start">Start</string>
+	<string name="send_transmitting_pause">Szünet</string>
+	
+	<string name="display_ticket_title">Beolvasott dokumentum</string>
+	<string name="display_ticket_release">Kibocsátás:</string>
+	<string name="display_ticket_release_id">Azonosító: %s</string>
+	<string name="display_ticket_release_time">Időpont: %s</string>
+	<string name="display_ticket_validity_valid">Érvényesség: (Érvényes)</string>
+	<string name="display_ticket_validity_invalid">Érvényesség: (Érvénytelen)</string>
+	<string name="display_ticket_validity_start">Kezdete: %s</string>
+	<string name="display_ticket_validity_end">Vége: %s</string>
+	<string name="display_ticket_identification">Azonosítás:</string>
+	<string name="display_ticket_name">Teljes név: %s</string>
+	<string name="display_ticket_id">Azonosító: %s</string>
+	<string name="display_ticket_birth">Születés:</string>
+	<string name="display_ticket_birth_date">Dátum: %1$s (Kor: %2$s)</string>
+	<string name="display_ticket_birth_place">Hely: %s</string>
+	<string name="display_ticket_contact">Elérhetőség:</string>
+	<string name="display_ticket_address">Lakcím: %s</string>
+	<string name="display_ticket_phone">Telefonszám: %s</string>
+	<string name="display_ticket_email">E-mail: %s</string>
+	
+	<string name="display_user_title">Beolvasott szöveg</string>
+</resources>

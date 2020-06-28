@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".send.SendContentTicketFragment">
+	
+	<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+		
+		<TextView style="@style/Title"
+				android:text="@string/send_content_ticket_title" />
+		
+		<View android:layout_width="match_parent"
+				android:layout_height="20dp" />
+		
+		<LinearLayout style="@style/Content_Ticket_Container">
+			
+			<TextView style="@style/Content_Ticket_Label"
+					android:text="@string/send_content_ticket_duration"
+					android:labelFor="@id/send_content_ticket_duration" />
+			
+			<EditText android:id="@+id/send_content_ticket_duration"
+					style="@style/Content_Ticket_Input"
+					android:inputType="number"
+					android:text="30" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Content_Ticket_Container">
+			
+			<TextView style="@style/Content_Ticket_Label"
+					android:text="@string/send_content_ticket_name"
+					android:labelFor="@id/send_content_ticket_name" />
+			
+			<EditText android:id="@+id/send_content_ticket_name"
+					style="@style/Content_Ticket_Input"
+					android:inputType="text"
+					android:text="Sárközi Gergely János" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Content_Ticket_Container">
+			
+			<TextView style="@style/Content_Ticket_Label"
+					android:text="@string/send_content_ticket_birth_date"
+					android:labelFor="@id/send_content_ticket_birth_date" />
+			
+			<EditText android:id="@+id/send_content_ticket_birth_date"
+					style="@style/Content_Ticket_Input"
+					android:inputType="date"
+					android:text="2000-12-31" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Content_Ticket_Container">
+			
+			<TextView style="@style/Content_Ticket_Label"
+					android:text="@string/send_content_ticket_birth_place"
+					android:labelFor="@id/send_content_ticket_birth_place" />
+			
+			<EditText android:id="@+id/send_content_ticket_birth_place"
+					style="@style/Content_Ticket_Input"
+					android:inputType="text"
+					android:text="Budapest" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Content_Ticket_Container">
+			
+			<TextView style="@style/Content_Ticket_Label"
+					android:text="@string/send_content_ticket_address"
+					android:labelFor="@id/send_content_ticket_address" />
+			
+			<EditText android:id="@+id/send_content_ticket_address"
+					style="@style/Content_Ticket_Input"
+					android:inputType="text"
+					android:text="Pest megye" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Content_Ticket_Container">
+			
+			<TextView style="@style/Content_Ticket_Label"
+					android:text="@string/send_content_ticket_phone"
+					android:labelFor="@id/send_content_ticket_phone" />
+			
+			<EditText android:id="@+id/send_content_ticket_phone"
+					style="@style/Content_Ticket_Input"
+					android:inputType="phone"
+					android:text="06014365879" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Content_Ticket_Container">
+			
+			<TextView style="@style/Content_Ticket_Label"
+					android:text="@string/send_content_ticket_email"
+					android:labelFor="@id/send_content_ticket_email" />
+			
+			<EditText android:id="@+id/send_content_ticket_email"
+					style="@style/Content_Ticket_Input"
+					android:inputType="textEmailAddress"
+					android:text="sarkozigergely@gmail.com" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Content_Ticket_Container"
+				android:orientation="horizontal"
+				android:gravity="center_vertical">
+			
+			<TextView style="@style/Content_Ticket_Label"
+					android:layout_width="wrap_content"
+					android:text="@string/send_content_ticket_signature"
+					android:labelFor="@id/send_content_ticket_signature" />
+			
+			<View style="@style/Filler" />
+			
+			<Switch android:id="@+id/send_content_ticket_signature"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="20dp"
+					android:checked="true"
+					tools:ignore="RtlHardcoded" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Navigation_Container">
+			
+			<Button android:id="@+id/send_content_ticket_back"
+					style="@style/Navigation_Button"
+					android:text="@string/back" />
+			
+			<Space style="@style/Navigation_Space" />
+			
+			<Button android:id="@+id/send_content_ticket_forward"
+					style="@style/Navigation_Button"
+					android:text="@string/forward" />
+		
+		</LinearLayout>
+	
+	</LinearLayout>
+
+</ScrollView>

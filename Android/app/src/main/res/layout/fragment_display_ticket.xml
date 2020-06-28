@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".display.DisplayTicketFragment">
+	
+	<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+		
+		<TextView style="@style/Title"
+				android:text="@string/display_ticket_title" />
+		
+		<View android:layout_width="match_parent"
+				android:layout_height="20dp" />
+		
+		<LinearLayout style="@style/Display_Ticket_Container">
+			
+			<TextView style="@style/Display_Ticket_Label"
+					android:text="@string/display_ticket_release" />
+			
+			<TextView android:id="@+id/display_ticket_release_id"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_release_id" />
+			
+			<TextView android:id="@+id/display_ticket_release_time"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_release_time" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Display_Ticket_Container">
+			
+			<TextView android:id="@+id/display_ticket_validity"
+					style="@style/Display_Ticket_Label"
+					android:text="@string/display_ticket_validity_invalid" />
+			
+			<TextView android:id="@+id/display_ticket_valid_start"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_validity_start" />
+			
+			<TextView android:id="@+id/display_ticket_valid_end"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_validity_end" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Display_Ticket_Container">
+			
+			<TextView style="@style/Display_Ticket_Label"
+					android:text="@string/display_ticket_identification" />
+			
+			<TextView android:id="@+id/display_ticket_name"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_name" />
+			
+			<TextView android:id="@+id/display_ticket_id"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_id" />
+			
+			<ImageView android:id="@+id/display_ticket_signature"
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:layout_marginLeft="5dp"
+					android:padding="3dp"
+					android:scaleType="fitStart"
+					android:src="@drawable/signature"
+					tools:ignore="ContentDescription,RtlHardcoded" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Display_Ticket_Container">
+			
+			<TextView style="@style/Display_Ticket_Label"
+					android:text="@string/display_ticket_birth" />
+			
+			<TextView android:id="@+id/display_ticket_birth_date"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_birth_date" />
+			
+			<TextView android:id="@+id/display_ticket_birth_place"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_birth_place" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Display_Ticket_Container">
+			
+			<TextView style="@style/Display_Ticket_Label"
+					android:text="@string/display_ticket_contact" />
+			
+			<TextView android:id="@+id/display_ticket_address"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_address" />
+			
+			<TextView android:id="@+id/display_ticket_phone"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_phone" />
+			
+			<TextView android:id="@+id/display_ticket_email"
+					style="@style/Display_Ticket_Entry"
+					android:text="@string/display_ticket_email" />
+		
+		</LinearLayout>
+		
+		<LinearLayout style="@style/Navigation_Container">
+			
+			<Button android:id="@+id/display_ticket_back"
+					style="@style/Navigation_Button"
+					android:text="@string/back" />
+		
+		</LinearLayout>
+	
+	</LinearLayout>
+
+</ScrollView>

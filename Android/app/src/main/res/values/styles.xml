@@ -1,0 +1,124 @@
+<resources>
+	
+	<style name="AppTheme"
+			parent="Base.Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	
+	<style name="Divider">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">3dp</item>
+		<item name="android:background">@color/dividerColor</item>
+	</style>
+	
+	<style name="Filler">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">0dp</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+	
+	<style name="Title">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">30sp</item>
+		<item name="android:background">@color/colorPrimaryDark</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:textColor">@color/windowBackground</item>
+	</style>
+	
+	<style name="Menu_Button">
+		<item name="android:layout_width">270dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:padding">15dp</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+	
+	<style name="Navigation_Container">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">10dp</item>
+	</style>
+	
+	<style name="Navigation_Button">
+		<item name="android:layout_width">140dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+	
+	<style name="Navigation_Space">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+	
+	<style name="Content_Ticket_Container">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:layout_marginLeft">15dp</item>
+		<item name="android:layout_marginRight">15dp</item>
+		<item name="android:padding">3dp</item>
+		<item name="android:background">@color/sectionBackground</item>
+	</style>
+	
+	<style name="Content_Ticket_Label">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">5dp</item>
+		<item name="android:textSize">19sp</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+	
+	<style name="Content_Ticket_Input">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">5dp</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+	
+	<style name="Content_User_Label">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:paddingBottom">8dp</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+	
+	<style name="Display_Ticket_Container">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:layout_marginLeft">15dp</item>
+		<item name="android:layout_marginRight">15dp</item>
+		<item name="android:paddingTop">3dp</item>
+		<item name="android:paddingBottom">3dp</item>
+		<item name="android:paddingLeft">5dp</item>
+		<item name="android:background">@color/sectionBackground</item>
+	</style>
+	
+	<style name="Display_Ticket_Label">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">@color/textColor</item>
+	</style>
+	
+	<style name="Display_Ticket_Entry">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">@color/textColor</item>
+		<item name="android:layout_marginLeft">5dp</item>
+	</style>
+
+</resources>

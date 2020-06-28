@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context=".display.DisplayUserFragment">
+	
+	<TextView style="@style/Title"
+			android:text="@string/display_user_title" />
+	
+	<ScrollView android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1">
+		
+		<TextView android:id="@+id/display_user_text"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="20dp"
+				android:textSize="18sp"
+				android:textColor="@color/textColor"
+				android:textIsSelectable="true"
+				android:text="@string/display_user_title" />
+	
+	</ScrollView>
+	
+	<LinearLayout style="@style/Navigation_Container">
+		
+		<Button android:id="@+id/display_user_back"
+				style="@style/Navigation_Button"
+				android:text="@string/back" />
+	
+	</LinearLayout>
+
+</LinearLayout>

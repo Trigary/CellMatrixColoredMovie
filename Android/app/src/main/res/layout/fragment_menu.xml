@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		tools:context=".MenuFragment"
+		tools:ignore="RtlHardcoded">
+	
+	<TextView style="@style/Title"
+			android:textSize="35sp"
+			android:drawableLeft="@drawable/logo"
+			android:layout_marginBottom="50dp"
+			android:text="@string/menu_title" />
+	
+	<Button android:id="@+id/menu_send"
+			style="@style/Menu_Button"
+			android:text="@string/menu_send"
+			android:drawableLeft="@mipmap/send"
+			android:layout_marginBottom="50dp" />
+	
+	<Button android:id="@+id/menu_receive"
+			style="@style/Menu_Button"
+			android:text="@string/menu_receive"
+			android:drawableLeft="@mipmap/receive" />
+	
+	<TextView android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:textSize="12sp"
+			android:gravity="bottom"
+			android:layout_gravity="right"
+			android:padding="2dp"
+			android:text="Icons by icons8.com" />
+
+</LinearLayout>

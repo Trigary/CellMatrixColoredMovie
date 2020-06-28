@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		tools:context=".send.SendTransmittingFragment">
+	
+	<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="30dp">
+		
+		<ProgressBar android:id="@+id/send_transmitting_loading"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				app:layout_constraintDimensionRatio="1:1" />
+		
+		<ImageView android:id="@+id/send_transmitting_frame"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				app:layout_constraintDimensionRatio="1:1"
+				tools:ignore="ContentDescription"
+				android:scaleType="center"
+				android:visibility="gone" />
+	
+	</android.support.constraint.ConstraintLayout>
+	
+	<View style="@style/Filler" />
+	
+	<LinearLayout android:id="@+id/send_transmitting_container"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+		
+		<View style="@style/Divider" />
+		
+		<TextView android:id="@+id/send_transmitting_progress_value"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:gravity="center"
+				android:textSize="18sp"
+				android:textColor="@color/textColor"
+				android:text="@string/send_transmitting_progress" />
+		
+		<ProgressBar android:id="@+id/send_transmitting_progress_bar"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:padding="20dp"
+				style="?android:attr/progressBarStyleHorizontal"
+				android:scaleY="5" />
+		
+		<View style="@style/Divider" />
+	
+	</LinearLayout>
+	
+	<LinearLayout style="@style/Navigation_Container">
+		
+		<Button android:id="@+id/send_transmitting_back"
+				style="@style/Navigation_Button"
+				android:text="@string/back" />
+		
+		<Space style="@style/Navigation_Space" />
+		
+		<Button android:id="@+id/send_transmitting_toggle"
+				style="@style/Navigation_Button"
+				android:text="@string/send_transmitting_start" />
+	
+	</LinearLayout>
+
+</LinearLayout>

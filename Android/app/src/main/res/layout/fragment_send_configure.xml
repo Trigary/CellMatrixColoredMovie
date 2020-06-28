@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context=".send.SendConfigureFragment">
+	
+	<TextView style="@style/Title"
+			android:text="@string/send_configure_title" />
+	
+	<View style="@style/Filler" />
+	
+	<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="20dp">
+		
+		<View style="@style/Filler" />
+		
+		<LinearLayout android:layout_width="260dp"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+			
+			<TextView android:id="@+id/send_configure_count"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="20sp"
+					android:textColor="@color/textColor"
+					android:text="@string/send_configure_count"
+					android:layout_marginBottom="10dp" />
+			
+			<TextView android:id="@+id/send_configure_time"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="20sp"
+					android:textColor="@color/textColor"
+					android:text="@string/send_configure_time_instant" />
+		
+		</LinearLayout>
+		
+		<View style="@style/Filler" />
+	
+	</LinearLayout>
+	
+	<View style="@style/Filler" />
+	
+	<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp">
+		
+		<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+			
+			<View style="@style/Filler" />
+			
+			<TextView android:id="@+id/send_configure_resolution_value"
+					android:layout_width="225dp"
+					android:layout_height="wrap_content"
+					android:textSize="20sp"
+					android:textColor="@color/textColor"
+					android:text="@string/send_configure_resolution" />
+			
+			<View style="@style/Filler" />
+		
+		</LinearLayout>
+		
+		<SeekBar android:id="@+id/send_configure_resolution_slider"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				style="@style/Widget.AppCompat.SeekBar.Discrete" />
+	
+	</LinearLayout>
+	
+	<View style="@style/Filler" />
+	
+	<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp">
+		
+		<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+			
+			<View style="@style/Filler" />
+			
+			<TextView android:id="@+id/send_configure_frequency_value"
+					android:layout_width="225dp"
+					android:layout_height="wrap_content"
+					android:textSize="20sp"
+					android:textColor="@color/textColor"
+					android:text="@string/send_configure_frequency" />
+			
+			<View style="@style/Filler" />
+		
+		</LinearLayout>
+		
+		<SeekBar android:id="@+id/send_configure_frequency_slider"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				style="@style/Widget.AppCompat.SeekBar.Discrete" />
+	
+	</LinearLayout>
+	
+	<View style="@style/Filler"
+			android:layout_weight="4" />
+	
+	<LinearLayout style="@style/Navigation_Container">
+		
+		<Button android:id="@+id/send_configure_back"
+				style="@style/Navigation_Button"
+				android:text="@string/back" />
+		
+		<Space style="@style/Navigation_Space" />
+		
+		<Button android:id="@+id/send_configure_forward"
+				style="@style/Navigation_Button"
+				android:text="@string/forward" />
+	
+	</LinearLayout>
+
+</LinearLayout>

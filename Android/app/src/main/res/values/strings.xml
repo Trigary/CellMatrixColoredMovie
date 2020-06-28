@@ -1,0 +1,63 @@
+<resources>
+	<string name="app_name">CMCM-App</string>
+	<string name="app_full_name">Cell Matrix Colored Movie</string>
+	
+	<string name="back">Back</string>
+	<string name="forward">Continue</string>
+	
+	<string name="menu_title">Cell-Matrix\nColored Movie</string>
+	<string name="menu_send">Send</string>
+	<string name="menu_receive">Decode</string>
+	
+	<string name="send_content_large">Content size too large</string>
+	
+	<string name="send_content_ticket_title">Contents</string>
+	<string name="send_content_ticket_duration">Validity duration (seconds)</string>
+	<string name="send_content_ticket_name">Full name</string>
+	<string name="send_content_ticket_birth_date">Date of birth</string>
+	<string name="send_content_ticket_birth_place">Place of birth</string>
+	<string name="send_content_ticket_address">Address</string>
+	<string name="send_content_ticket_phone">Phone</string>
+	<string name="send_content_ticket_email">E-mail</string>
+	<string name="send_content_ticket_signature">Include signature</string>
+	
+	<string name="send_content_user_title">Contents</string>
+	<string name="send_content_user_file_none">No file selected</string>
+	<string name="send_content_user_file_selected">File selected: %s</string>
+	<string name="send_content_user_file_select">Select file to send</string>
+	<string name="send_content_user_file_clear">Clear selected file</string>
+	<string name="send_content_user_text">Enter text to send</string>
+	
+	<string name="send_configure_title">Options</string>
+	<string name="send_configure_resolution">Resolution: %1$d x %1$d</string>
+	<string name="send_configure_frequency">Frequency: %d Hz</string>
+	<string name="send_configure_count">Frame count: %d</string>
+	<string name="send_configure_count_impossible">Frame count: too many</string>
+	<string name="send_configure_time_normal">Transmission time: %.1f s</string>
+	<string name="send_configure_time_instant">Transmission time: -</string>
+	
+	<string name="send_transmitting_progress">%.1f seconds remaining</string>
+	<string name="send_transmitting_start">Start</string>
+	<string name="send_transmitting_pause">Pause</string>
+	
+	<string name="display_ticket_title">Scanned document</string>
+	<string name="display_ticket_release">Release:</string>
+	<string name="display_ticket_release_id">Identifier: %s</string>
+	<string name="display_ticket_release_time">Time: %s</string>
+	<string name="display_ticket_validity_valid">Validity: (Valid)</string>
+	<string name="display_ticket_validity_invalid">Validity: (Invalid)</string>
+	<string name="display_ticket_validity_start">Begins: %s</string>
+	<string name="display_ticket_validity_end">Ends: %s</string>
+	<string name="display_ticket_identification">Identification:</string>
+	<string name="display_ticket_name">Full name: %s</string>
+	<string name="display_ticket_id">Identifier: %s</string>
+	<string name="display_ticket_birth">Birth:</string>
+	<string name="display_ticket_birth_date">Date: %1$s (Age: %2$s)</string>
+	<string name="display_ticket_birth_place">Place: %s</string>
+	<string name="display_ticket_contact">Contact:</string>
+	<string name="display_ticket_address">Address: %s</string>
+	<string name="display_ticket_phone">Phone: %s</string>
+	<string name="display_ticket_email">E-mail: %s</string>
+	
+	<string name="display_user_title">Received text</string>
+</resources>
